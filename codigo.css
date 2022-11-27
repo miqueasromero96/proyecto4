@@ -1,0 +1,71 @@
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    color: #444;
+    font-family: sans-serif;
+}
+
+
+body{
+	overflow-x: hidden;
+	background: #fff;
+}
+.flex-item{
+ flex-grow: 1;
+ margin: 20px;
+ max-width:300px ;
+ border: 2px solid #333;
+ padding: 0px 20px;
+}
+
+.flex-item:hover{
+	border-color: #0A7FA8;
+	box-shadow: 0px 0px 13px #1DC7F9;
+}
+
+.flex-item:focus{
+		border-color: #01BDBA;
+	box-shadow: 0px 0px 13px #1CF50E;
+}
+
+
+
+h2,h3{
+	margin: 0px;
+}
+
+
+
+h3{
+	color: #444;
+}
+
+p b {
+	color:#04D11B;
+}
+
+
+
+llave.img{
+ width: 300px;
+
+}
+
+form{
+	width: 100%;
+	text-align: center;
+	padding: 50px;
+}
+
+input[type="submit"]{
+ background: #05FA09 ;
+ color: #fff;
+ border: none;
+ padding: 12px 28px ;
+ font-size: 18px;
+ letter-spacing: 1px;
+}
+input[type="submit"]:hover{
+	background: #04D11B;
+}
